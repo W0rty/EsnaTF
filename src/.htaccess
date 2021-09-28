@@ -1,0 +1,44 @@
+Options -Indexes
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^admin$ /core/admin94386917542/admin.php
+RewriteRule ^register$ /core/register.php
+RewriteRule ^login$ /core/login.php
+RewriteRule ^playground$ /core/playground.php
+RewriteRule ^disconnect$ /core/disconnect.php
+RewriteRule ^program$ /core/program.php
+RewriteRule ^leaderboard$ /core/leaderboard.php
+RewriteRule ^myscore$ /core/myscore.php
+
+RewriteRule ^api/leaderboard$ /api/leaderboard.php
+RewriteRule ^api/flag$ /api/verify_flag.php
+
+RewriteRule ^exercice/python$ /core/exercice/python.php
+RewriteRule ^exercice/python/train$ /core/exercice/train_python.php
+RewriteRule ^api/python/exercice$ /api/python/exercice.php
+
+RewriteRule ^exercice/java$ /core/exercice/java.php
+RewriteRule ^exercice/java/train$ /core/exercice/train_java.php
+RewriteRule ^api/java/exercice$ /api/java/exercice.php
+
+RewriteRule ^exercice/c$ /core/exercice/c.php
+RewriteRule ^exercice/c/train$ /core/exercice/train_c.php
+RewriteRule ^api/c/exercice$ /api/c/exercice.php
+
+RewriteRule ^admin/users/show$ /core/admin94386917542/users/show.php
+RewriteRule ^admin/users/modify$ /core/admin94386917542/users/modify.php
+RewriteRule ^admin/users/ban$ /core/admin94386917542/users/ban.php
+RewriteRule ^admin/exercice/add$ /core/admin94386917542/exercices/add.php
+RewriteRule ^admin/exercice/modify$ /core/admin94386917542/exercices/modify.php
+RewriteRule ^admin/exercice/delete$ /core/admin94386917542/exercices/delete.php
+RewriteRule ^admin/exercice/template$ /core/admin94386917542/exercices/template_exercice.json
+RewriteRule ^admin/exercices/templating_exos$ /core/admin94386917542/exercices/create_template_from_exo.php
+RewriteRule ^/admin/exercices/delete$ /core/admin94386917542/exercices/delete.php
+
+RewriteRule ^doc/python$ /presentation/pres_python.pptx
+RewriteRule ^doc/java$ /presentation/pres_java.pptx
+RewriteRule ^doc/c$ /presentation/pres_c.pptx
+RewriteRule ^var/www/html/presentation/rockyou.txt$ /var/www/html/presentation/rockyou.txt

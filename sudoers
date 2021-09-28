@@ -1,0 +1,3 @@
+www-data  ALL = (root) NOPASSWD: /var/www/html/exercice/run_docker_python.sh
+www-data  ALL = (root) NOPASSWD: /var/www/html/exercice/run_docker_java.sh
+www-data  ALL = (root) NOPASSWD: /var/www/html/exercice/run_docker_c.sh

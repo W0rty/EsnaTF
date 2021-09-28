@@ -1,0 +1,23 @@
+{
+	"exercices":
+		[
+			{
+				"langage":"python",
+				"description":"Description de l'exercice",
+				"reponse":"La réponse attendue au problème (optionnel si remote)",
+				"titre":"Titre de l'exercice",
+				"ajout":"Les lignes de code à rajouter pour tester le script de l'utilisateur (optionnel)",
+				"remote":"",
+				"flag":""
+			},
+			{
+				"langage":"java",
+				"description":"Description de l'exercice",
+				"reponse":"",
+				"titre":"Titre de l'exercice",
+				"ajout":"" ,
+				"remote":"localhost:5555",
+				"flag":"1m_4_pr0gr4mm3r"
+			}
+		]
+}
